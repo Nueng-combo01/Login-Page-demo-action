@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signinpc.css">
+    <link rel="stylesheet" href="signinmobile.css">
+    <title>.ShaFull Store (Sign In)</title>
+</head>
+<body>
+
+    <!-- Main Mobile -->
+    <div class="page-mobile">
+        <div class="box-mobile">
+            <br>
+            <a id="sign-top" href="/signup">Sign Up</a>
+            <br>
+            <center>
+            <h1 id="sign-in-mobile">Sign in</h1>
+
+            <!-- กล่องใส่ข้อมูลใน form -->
+            <form action="#">
+                <br>
+                    <label for="#"></label>
+                    <input class="input-mobile" type="text" maxlength="20" placeholder="username">
+                    <br>
+                    <br>
+                    <label for="#"></label>
+                    <input class="input-mobile" type="password" maxlength="12" minlength="8" placeholder="password">
+                    <br>
+                    <br>
+                    <button class="submit-sign-mobile" type="submit">Sign In</button>
+            </form>
+
+                <!-- แจ้งเตือนว่าลืมรหัสผ่านมั้ย หรือ ลืมตัวมั้ย5555555 -->
+                <div class="warning">  
+                    <div class="div-left">
+                        <p class="div-check"><input id="checkbox-mobile" type="checkbox"> &nbsp;remember me</p>
+                    </div>
+                    <div class="div-right">
+                        <a id="forgot-mobile" href="#">forgot password</a>
+                    </div>
+                </div>
+
+                <!-- ส่วนนี้คือขีดเส้นแบ่งหน้า -->
+                <div class="under-line">
+                    <div class="liner-left">
+                    </div>
+                    <div class="text-or">
+                        <p>or</p>
+                    </div>
+                    <div class="liner-right">
+                    </div>
+                </div>
+                <br>
+
+                <!-- ตรงนี้คือปุ่ม login กับ google -->
+                <div class="google-mobile">
+                    <div class="google-logo-mobile">
+                        <img src="logogoogle.png" alt="" width="0%"> 
+                    </div>
+                        <button class="button-google-mobile">
+                            <a href="https://www.google.com/">Sign in with google</a>
+                        </button>
+                    <div class="google-logo-mobile-right">
+                    </div>
+                </div>
+            </center>
+
+        </div>
+    </div>
+
+    <!-- Main Pc -->
+    <div class="main-page">
+        <div class="box-back">
+
+            <!-- กล่องด้านซ้ายของ pc -->
+            <div class="box-left">
+                <img src="backgroundcool2.jpeg" alt="" width="100%">
+
+                <div class="box-blur">
+                    <div class="box-in-left">
+
+                    <p class="Shafull">.SHAFULL</p>
+    
+                    <div class="text-pc">
+                        <p class="welcome"> Welcome to ShaFull store</p>
+                    <p class="text-product">You can buy the products, Your want here now. Flash sale first product 40%</p>
+                    </div>
+                    
+                     <a id="sign-bottom-pc" href="/signup">Sign up</a>
+                    </div>
+                
+                </div>
+            </div>
+
+            <!-- กล่องด้านขวาของ pc -->
+            <div class="box-right">
+                <center>
+
+                <a id="signup-top-pc" href="/signup">Sign Up</a>
+                <div class="box-in-right">
+                        <h1 id="sign-in-pc">Sign In</h1>
+
+                        <!-- กรอกข้อมูล pc form -->
+                        <form id="">
+                            <br>
+                                <label for="#"></label>
+                                <input class="input-pc" type="text" maxlength="20" placeholder="username">
+                                <br>
+                                <br>
+                                <label for="#"></label>
+                                <input class="input-pc" type="password" maxlength="12" minlength="8" placeholder="password">
+                                <br>
+                                <br>
+                                <button class="submit-sign-pc" type="submit">Sign In</button>
+                        </form>
+                        
+                        <!-- ส่วนแจ้งเตือน pc -->
+                        <div class="warning-pc">  
+                            <div class="div-left-pc">
+                                <p class="div-check-pc"><input id="checkbox-pc" type="checkbox"> &nbsp;remember me</p>
+                            </div>
+                            <div class="div-right-pc">
+                                <a id="forgot-pc" href="#">forgot password</a>
+                            </div>
+                        </div>
+
+                        <!-- เส้น or ของ pc -->
+                        <div class="under-line-pc">
+                            <div class="liner-left-pc">
+                            </div>
+                            <div class="text-or-pc">
+                                <p>or</p>
+                            </div>
+                            <div class="liner-right-pc">
+                            </div>
+                        </div>
+                        <br>
+
+                        <!-- Google ของ pc -->
+                        <div class="google-pc">
+                            <div class="google-logo-pc">
+                                <img src="logogoogle.png" alt="" width="0%"> 
+                            </div>
+                                <button class="button-google-pc">
+                                    <a href="https://www.google.com/">Sign in with google</a>
+                                </button>
+                            <div class="google-logo-pc-right">
+        
+                            </div>
+                        </div>
+                    </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="scriptup.js"></script>
+</html>

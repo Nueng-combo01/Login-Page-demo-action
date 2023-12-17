@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signuppc.css">
+    <link rel="stylesheet" href="signupmobile.css">
+    <title>.ShaFull Store (Sign Up)</title>
+</head>
+<body>
+
+    <!-- Main Mobile -->
+    <div class="page-mobile">
+        <div class="box-mobile">
+            <br>
+            <a id="sign-top-sup" href="https://nueng-combo01.github.io/Login-Page-demo-no-action/">Sign In</a>
+            <br>
+            <center>
+            <h1 id="sign-up-mobile">Sign Up</h1>
+
+            <!-- กล่องใส่ข้อมูลใน form -->
+            <form id="signup-on-mobile">
+                    <label for="#"></label>
+                    <input class="input-mobile" id="username-mobile" type="text" maxlength="20" placeholder="username">
+                    <br>
+                    <br>
+                    <label for="#"></label>
+                    <input class="input-mobile" id="email-mobile" type="email" placeholder="email">
+                    <br>
+                    <br>
+                    <label for="#"></label>
+                    <input class="input-mobile" id="password-mobile" type="password" maxlength="12" minlength="8" placeholder="password">
+                    <br>
+                    <br>
+                    <label for="#"></label>
+                    <input class="input-mobile" id="confirm-password-mobile" type="password" maxlength="12" minlength="8" placeholder="confirm password">
+                    <br>
+                    <br>
+
+                    <!-- แจ้งเตือนว่าลืมรหัสผ่านมั้ย หรือ ลืมตัวมั้ย5555555 -->
+                <div class="warning-signup-mobile">  
+                    <div class="div-left">
+                        <p class="div-check-signup-mobile"><input id="checkbox-mobile" type="checkbox"> &nbsp;I agree with the account's Privacy policy.</p>
+                    </div>
+                </div>
+
+                    <button class="submit-signup-mobile" type="submit">Sign Up</button>
+                    <br>
+                    <span id="error-mobile" style="color: rgb(255, 137, 137);"></span>
+                    <span id="success-mobile" style="color: rgb(134, 255, 101)"></span>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Main Pc -->
+    <div class="main-page">
+        <div class="box-back">
+
+            <!-- กล่องด้านซ้ายของ pc -->
+            <div class="box-left">
+                <img src="backgroundcool2.jpeg" alt="" width="100%">
+
+                <div class="box-blur">
+                    <div class="box-in-left">
+
+                    <p class="Shafull">.SHAFULL</p>
+    
+                    <div class="text-pc">
+                        <p class="welcome"> Welcome to ShaFull store</p>
+                    <p class="text-product">You can buy the products, Your want here now. Flash sale first product 40%</p>
+                    </div>
+                    
+                     <a id="signin-bottom-pc" href="/signin">Sign In</a>
+                    </div>
+                
+                </div>
+            </div>
+
+            <!-- กล่องด้านขวาของ pc -->
+            <div class="box-right">
+                <center>
+
+                <a id="signup-top-pc" href="/signin">Sign In</a>
+                <div class="box-in-right">
+                        <h1 id="sign-up-pc">Sign Up</h1>
+
+                        <!-- กรอกข้อมูล pc form -->
+                        <form id="signup-pc">
+                            <br>
+                                <label for="#"></label>
+                                <input class="input-signup-pc" id="username-pc" type="text" maxlength="20" placeholder="username">
+                                <br>
+                                <br>
+                                <label for="#"></label>
+                                <input class="input-signup-pc" id="email-pc" type="email" placeholder="email">
+                                <br>
+                                <br>
+                                <label for="#"></label>
+                                <input class="input-signup-pc" id="password-pc" type="password" maxlength="12" minlength="8" placeholder="password">
+                                <br>
+                                <br>
+                                <label for="#"></label>
+                                <input class="input-signup-pc" id="confirm-password-pc" type="password" maxlength="12" minlength="8" placeholder="confirm password">
+                                <br>
+                                <br>   
+
+                                <!-- แจ้งเตือนว่าลืมรหัสผ่านมั้ย หรือ ลืมตัวมั้ย5555555 -->
+                                <div class="warning-signup-pc">  
+                                    <div class="div-left">
+                                        <p class="div-check-signup-pc"><input id="checkbox-pc" type="checkbox"> &nbsp;I agree with the account's Privacy policy.</p>
+                                    </div>
+                                </div>
+
+                                <button class="submit-signup-pc" type="submit">Sign Up</button>
+                                <br>
+                                <span id="error" style="color: rgb(255, 137, 137);"></span>
+                                <span id="success" style="color: rgb(134, 255, 101)"></span>
+                        </form>
+                    </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="scriptup.js"></script>
+</html>
